@@ -1,0 +1,260 @@
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay {
+    z-index: 1;
+}
+
+.video-container {
+    z-index: 9999
+}
+
+.homepageContent {
+    z-index: 2;
+}
+
+a {
+    color: white
+}
+
+.a:hover {
+    background-color: rgb(44, 152, 240)
+}
+
+.fa-bars {
+    font-size: 30px
+}
+
+ul#mobile-demo.side-nav {
+    padding: 0
+}
+
+#sidenav-overlay {
+    display: none;
+}
+
+.user-view {
+    height: 150px;
+}
+
+.user-view img {
+    width: 100%;
+}
+
+nav .button-collapse {
+    float: right;
+}
+
+#about {
+    padding: 40px;
+    background-color: rgb(243, 244, 244)
+}
+
+#about h5 {
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 3px
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.section {
+    min-height: 400px;
+    background-color: rgb(143, 145, 145);
+}
+
+.card.horizontal.desktop {
+    align-self: center;
+}
+
+.mobile {
+    display: none
+}
+
+.card {
+    box-shadow: none;
+}
+
+.card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.card-stacked {
+    padding-left: 15px
+}
+
+
+
+#contact {
+    margin: 0;
+    padding: 70px 30px 0 30px;
+    background-image: url('./components/img/cat-1.jpeg');
+    background-size: cover;
+    height: 92vh;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.form {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button.btn:hover {
+    background-color: rgb(44, 152, 240);
+}
+
+#error {
+    display: none;
+}
+
+.slider {
+    max-height: 300px;
+    padding: 40px;
+    background-color: rgb(243, 244, 244);
+}
+
+.owl-item.cloned {
+    width: 289.333px;
+    margin-right: 10px;
+}
+
+.owl-prev {
+    width: 30px;
+    position: absolute;
+    top: 40%;
+    left: -45px;
+    display: block!IMPORTANT;
+    border: 0px solid black;
+}
+
+.owl-next {
+    width: 30px;
+    position: absolute;
+    top: 40%;
+    right: -45px;
+    display: block!IMPORTANT;
+    border: 0px solid black;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #2793e6;
+    background: transparent !important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    color: #2793e6;
+}
+
+
+/* label focus color */
+
+.input-field input:focus+label {
+    color: rgb(44, 152, 240) !important;
+}
+
+
+/* label underline focus color */
+
+.row .input-field input:focus {
+    border-bottom: 1px solid rgb(44, 152, 240) !important;
+    box-shadow: 0 1px 0 0 rgb(44, 152, 240) !important
+}
+
+.gallery {}
+
+.gallery h5 {
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 3px
+}
+
+.gallery p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media (max-width: 991px) {
+    .card.horizontal.desktop {
+        display: none;
+    }
+    .mobile {
+        display: block
+    }
+}
+
+@media (max-width:767px) {
+    html {
+        font-size: 14px;
+    }
+    .landingPage {
+        background-image: url('./components/img/kitty.jpeg');
+        background-size: cover;
+        padding: 10px;
+        height: 100vh;
+        width: 100vw;
+    }
+    .video-background video {
+        display: none;
+    }
+    .overlay {
+        display: none;
+    }
+    .side-nav {
+        padding: 10px;
+    }
+    #about p {
+        text-align: justify;
+    }
+    .card.horizontal.desktop {
+        display: none;
+    }
+    .form {
+        padding: 10px;
+        width: 100%;
+    }
+    button.btn {
+        left: 25%;
+    }
+    .owl-prev {
+        width: 30px;
+        position: absolute;
+        top: 40%;
+        left: -45px;
+        display: block!IMPORTANT;
+        border: 0px solid black;
+    }
+    .owl-next {
+        width: 30px;
+        position: absolute;
+        top: 40%;
+        right: -45px;
+        display: block!IMPORTANT;
+        border: 0px solid black;
+    }
+
+    footer .row{
+        margin: 0 !important;
+    }
+}
